@@ -8,6 +8,8 @@ using namespace std;
 vector<int> v[MAX];
 int vis[MAX];
 
+//logic for dfs
+
 void dfs(int node){
     vis[node]=1;
     printf("%d ",node);
@@ -23,12 +25,15 @@ void dfs(int node){
 int main(){
 
 int node,edge;
+
+//logic for special case    
 scanf("%d %d",&node,&edge);
 if(node<2){
     printf("Invalid input\n");
     return -1;
 }
 
+//logic for taking input
 int x,y;
 for(int i=0;i<edge;i++){
     scanf("%d %d",&x,&y);

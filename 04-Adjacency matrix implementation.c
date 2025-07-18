@@ -19,7 +19,7 @@ int main(){
 
    int strt,end;
 
-   //logic for developing matrix
+   //logic for taking edges
    for(int i=0;i<edge;i++){
         scanf("%d %d",&strt,&end);
         adj_mtrx[strt][end]=1;

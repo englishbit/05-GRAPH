@@ -53,6 +53,7 @@ int main(){
             adj[end][strt]=1;
         }
 
+        //LOGIC FOR OUTPUT
         for(int l=0;l<node;l++){
             for(int k=0;k<node;k++){
                 if(adj[l][k]==1){

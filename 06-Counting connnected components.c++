@@ -32,10 +32,12 @@ int main(){
     }
 
 
+    //logic for taking input edges
     int x,y;
     while(m--){
         cin>>x>>y;
 
+        //logic for special case
         if(x<0 || x>=n || y<0 || y>=n){
             cout<<"Invalid input"<<endl;
             return 1;
@@ -61,4 +63,5 @@ int main(){
     return 0;
 
 }
+
 

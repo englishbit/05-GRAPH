@@ -9,7 +9,7 @@ int in[MAX]={0};
 int out[MAX]={0};
 
 
-
+//logic for dfs
 int time=1;
 void dfs(int node){ 
     vis[node]=1;
@@ -28,6 +28,8 @@ int main(){
 
     int n,m,x,y;
     cin>>n>>m;
+
+    //logic for special case
     if(n<2 || n>MAX || m<1){
         cout<<"Invalid input"<<endl;
         return 1;
@@ -36,6 +38,8 @@ int main(){
 
     while(m--){
         cin>>x>>y;
+
+        //logic for special case
         if(x<0 || x>=n|| y<0 || y>=n){
             cout<<"Invalid input"<<endl;
             return 1;
@@ -44,8 +48,10 @@ int main(){
         v[x].push_back(y);
         v[y].push_back(x);
     }
+    
     int start;
     cin>>start;
+    //logic for special case
     if(start<0 || start>=n){
         cout<<"Invalid input"<<endl;
         return 1;
@@ -61,4 +67,5 @@ int main(){
 
 
     return 0;
+
 }

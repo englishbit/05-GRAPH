@@ -48,6 +48,7 @@ int main(){
     }
 
 
+    //logic for counting components
     int count=0;
     for(int i=0;i<n;i++){
         if(vis[i]==0){
@@ -57,11 +58,13 @@ int main(){
     }
 
 
+    //logic for output
     cout<<"The number of connected component is "<<count<<endl;
 
 
     return 0;
 
 }
+
 
 

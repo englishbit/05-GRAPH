@@ -60,6 +60,7 @@ int main(){
 
 
 
+    //logic for output
     for(int i=0;i<n;i++){
         cout<<"In time "<<in[i]<<" and out "<<out[i]<<endl;
     }
@@ -69,3 +70,4 @@ int main(){
     return 0;
 
 }
+

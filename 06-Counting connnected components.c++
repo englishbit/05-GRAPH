@@ -5,7 +5,7 @@ vector<int> v[MAX];
 int vis[MAX];
 using namespace std;
 
-
+//logic for dfs
 void dfs(int node){
     vis[node]=1;
     for(int i=0;i<v[node].size();i++){
@@ -20,6 +20,8 @@ int main(){
 
     int n,m;
     cin>>n>>m;
+
+    //logic for special case
     if(n<2 || n>MAX){
         cout<<"Invalid input"<<endl;
         return 1;
@@ -59,3 +61,4 @@ int main(){
     return 0;
 
 }
+

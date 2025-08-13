@@ -7,6 +7,7 @@ using namespace std;
 vector<int>v[MAX];
 int vis[MAX]={0};
 int dis[MAX]={-1};
+//logic for bfs
 void bfs(int node){
 
     queue<int>q;
@@ -30,6 +31,8 @@ void bfs(int node){
 int main(){
 int n,e,x,y;
 cin>>n>>e;
+
+    //logic for special case
 if(n<2){
     cout<<"Invalid input"<<endl;
     return 1;
@@ -74,3 +77,4 @@ for(int i=0;i<n;i++){
     return 0;
 
 }
+

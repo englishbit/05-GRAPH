@@ -62,23 +62,15 @@ if(source<0 || source>=n){
     cout<<"Invalid input"<<endl;
     return 1;
 }
+    
 bfs(source);
 
-
+    //logic for output
 for(int i=0;i<n;i++){
     cout<<dis[i]<<endl;
 }
-
-
-
-
-
-
-
-
-
     return 0;
-
 }
+
 
 

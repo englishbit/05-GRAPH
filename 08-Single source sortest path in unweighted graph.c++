@@ -28,6 +28,7 @@ void bfs(int node){
     }
 
 }
+
 int main(){
 int n,e,x,y;
 cin>>n>>e;
@@ -44,6 +45,7 @@ if(e<1 || e>=n){
 
 while(e--){
     cin>>x>>y;
+    //logic for special case
     if(x<0 || x>=n || y<0 || y>=n){
         cout<<"Invalid input"<<endl;
         return 1;
@@ -55,6 +57,7 @@ while(e--){
 
 int source;
 cin>>source;
+    //logic for special case
 if(source<0 || source>=n){
     cout<<"Invalid input"<<endl;
     return 1;
@@ -77,4 +80,5 @@ for(int i=0;i<n;i++){
     return 0;
 
 }
+
 

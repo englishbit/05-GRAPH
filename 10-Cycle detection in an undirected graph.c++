@@ -5,6 +5,8 @@ using namespace std;
 vector<int>v[max];
 int vis[max];
 bool flag=false;
+
+//logic for bfs
 void dfs(int node,int par){
         vis[node]=1;
         for(int i:v[node]){
@@ -21,10 +23,12 @@ void dfs(int node,int par){
 
         
 }
+
 int main(){
     int n,e,x,y;
     cin>>n>>e;
 
+        //logic for special case
     if(n<0 || n>=max){
         cout<<"Invalid input"<<endl;
         return 1;
@@ -35,6 +39,7 @@ int main(){
     }
     while(e--){
         cin>>x>>y;
+            //logic for special case
         if(x<0 || x>=n || y<0 || y<=n){
             cout<<"Invalid input"<<endl;
             return 1;
@@ -60,3 +65,4 @@ if(flag==true){
     return 0;
 
 }
+

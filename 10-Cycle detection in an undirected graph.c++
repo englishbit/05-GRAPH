@@ -48,7 +48,7 @@ int main(){
         v[y].push_back(x);
     }
 
-//logic for output
+//logic for special case
 int start;
 cin>>start;
 if(start<0 || start>=n){
@@ -57,6 +57,7 @@ if(start<0 || start>=n){
 }
 dfs(start,-1);
 
+        //logic for output
 if(flag==true){
     cout<<"Cycle found"<<endl;
 }else{
@@ -66,5 +67,6 @@ if(flag==true){
     return 0;
 
 }
+
 
 

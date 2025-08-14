@@ -48,6 +48,7 @@ int main(){
         v[y].push_back(x);
     }
 
+//logic for output
 int start;
 cin>>start;
 if(start<0 || start>=n){
@@ -65,4 +66,5 @@ if(flag==true){
     return 0;
 
 }
+
 

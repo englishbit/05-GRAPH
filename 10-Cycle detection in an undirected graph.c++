@@ -6,7 +6,7 @@ vector<int>v[max];
 int vis[max];
 bool flag=false;
 
-//logic for bfs
+//logic for bfs function
 void dfs(int node,int par){
         vis[node]=1;
         for(int i:v[node]){
@@ -68,6 +68,7 @@ if(flag==true){
     return 0;
 
 }
+
 
 
 

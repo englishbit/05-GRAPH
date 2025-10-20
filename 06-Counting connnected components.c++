@@ -19,6 +19,7 @@ void dfs(int node){
 int main(){
 
     int n,m;
+    //logic for taking input
     cin>>n>>m;
 
     //logic for special case
@@ -65,6 +66,7 @@ int main(){
     return 0;
 
 }
+
 
 
 

@@ -8,7 +8,7 @@ using namespace std;
 vector<int> v[MAX];
 int vis[MAX];
 
-//logic for dfs
+//logic for dfs function
 
 void dfs(int node){
     vis[node]=1;
@@ -60,3 +60,4 @@ if(start<node && start>=0){
 
     return 0;
 }
+

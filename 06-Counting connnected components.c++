@@ -5,7 +5,7 @@ vector<int> v[MAX];
 int vis[MAX];
 using namespace std;
 
-//logic for dfs
+//logic for dfs function
 void dfs(int node){
     vis[node]=1;
     for(int i=0;i<v[node].size();i++){
@@ -66,6 +66,7 @@ int main(){
     return 0;
 
 }
+
 
 
 

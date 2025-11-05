@@ -9,7 +9,7 @@ int in[MAX]={0};
 int out[MAX]={0};
 
 
-//logic for dfs
+//logic for dfs function
 int time=1;
 void dfs(int node){ 
     vis[node]=1;
@@ -70,4 +70,5 @@ int main(){
     return 0;
 
 }
+
 

@@ -10,7 +10,7 @@ vector<int>ans;
 int indegree[max];
 int n;
 
-//logic for bfs
+//logic for bfs function
 void bfs(){
     queue<int>q;
     for(int i=0;i<n;i++){
@@ -75,3 +75,4 @@ int main(){
     return 0;
 
 }
+

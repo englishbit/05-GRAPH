@@ -35,6 +35,7 @@ void bfs(){
 int main(){
 
     int e,x,y;
+    //logic for taking input
     cin>>n>>e;
     //logic for special case
     if(n<0 || n>=max){
@@ -75,4 +76,5 @@ int main(){
     return 0;
 
 }
+
 

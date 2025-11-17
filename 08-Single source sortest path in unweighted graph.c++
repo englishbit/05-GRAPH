@@ -39,6 +39,7 @@ if(n<2){
     cout<<"Invalid input"<<endl;
     return 1;
 }
+    //logic for special case
 if(e<1 || e>=n){
     cout<<"Invalid input"<<endl;
     return 1;
@@ -72,6 +73,7 @@ for(int i=0;i<n;i++){
 }
     return 0;
 }
+
 
 
 

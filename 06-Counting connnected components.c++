@@ -27,6 +27,7 @@ int main(){
         cout<<"Invalid input"<<endl;
         return 1;
     }
+    //logic for special case
     if(m<1){
         cout<<"Invalid input"<<endl;
         return 1;
@@ -66,6 +67,7 @@ int main(){
     return 0;
 
 }
+
 
 
 

@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
         int node,edge;
+        //logic for taking input
         scanf("%d %d",&node,&edge);
 
         //LOGIC FOR SPECIAL CASE
@@ -67,3 +68,4 @@ int main(){
 
     return 0;
 }
+

@@ -4,7 +4,7 @@ int main(){
         //logic for taking input
         scanf("%d %d",&node,&edge);
 
-        //LOGIC FOR SPECIAL CASE
+        //logic for special case
         if(node<0||edge<0){
             printf("wrong input");
             return 0;
@@ -68,4 +68,5 @@ int main(){
 
     return 0;
 }
+
 

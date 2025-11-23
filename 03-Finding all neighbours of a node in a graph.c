@@ -20,7 +20,7 @@ int main(){
         int adj[node][node];
 
 
-        //LOGIC FOR FILLING THE MATRIX WITH 0;
+        //logic for filling the matrix with 0;
         for(int i=0;i<node;i++){
             for(int j=0;j<node;j++){
                     adj[i][j]=0;
@@ -68,5 +68,6 @@ int main(){
 
     return 0;
 }
+
 
 

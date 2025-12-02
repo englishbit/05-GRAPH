@@ -29,7 +29,7 @@ int main(){
 
 
         
-        //LOGIC FOR SETTING NEIGHBOUR
+        //logic for setting neighbour
 
         for(int i=0;i<edge;i++){
             int strt,end;
@@ -68,6 +68,7 @@ int main(){
 
     return 0;
 }
+
 
 
 

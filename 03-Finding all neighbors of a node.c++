@@ -1,0 +1,34 @@
+#include<stdio.h>
+#include<iostream>
+using namespace std;
+int main(){
+    int node,edge;
+    cin>>node>>edge;
+
+    int matrix[node][node];
+    for(int i=0;i<node;i++){
+        for(int j=0;j<node;j++){
+            matrix[i][j]=0;
+        }
+    }
+
+
+    int x,y;
+    for(int i=0;i<edge;i++){
+        cin>>x>>y;
+        matrix[x][y]=1;
+        matrix[y][x]=1;        
+    }
+
+    for(int i=0;i<node;i++){
+        for(int j=0;j<node;j++){
+            if(matrix[i][j]==1){
+                cout<<i<<">>"<<j;
+            }
+        }
+        cout<<endl;
+    }
+
+
+    return 0;
+}

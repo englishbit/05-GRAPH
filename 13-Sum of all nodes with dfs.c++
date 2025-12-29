@@ -1,0 +1,37 @@
+#include<stdio.h>
+#include<iostream>
+using namespace std;
+#define max 100000
+int graph[max][max]={0};
+int vis[max]={0};
+int sum=0;
+
+void dfs(int node,int num_node){
+    vis[node]=1;
+    sum=sum+node;
+    for(int i=0;i<num_node;i++){
+        if(graph[node][i] && !vis[i]){
+            dfs(i,num_node);
+        }
+    }
+}
+int main(){ 
+    int node,edge;
+    cin>>node>>edge;
+
+    int x,y;
+    for(int i=0;i<edge;i++){
+        cin>>x>>y;
+        graph[x][y]=1;
+        graph[y][x]=1;
+    }
+
+    sum=0;
+    int start;
+    cin>>start;
+    dfs(start,node);
+    cout<<sum;
+
+
+    return 0;
+}

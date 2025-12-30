@@ -1,0 +1,40 @@
+#include<stdio.h>
+#include<iostream>
+#include<stack>
+using namespace std;
+#define max 100000
+int graph[max][max]={0};
+int vis[max]={0};
+stack<int>stk;
+void dfs(int node,int num_node){
+    stk.push(node);
+    vis[node]=1;
+    while(!stk.empty()){
+        int x=stk.top();
+        cout<<x<<endl;
+        stk.pop();
+        for(int i=0;i<num_node;i++){
+            if(graph[x][i]==1 && !vis[i]){
+                stk.push(i);
+                vis[i]=1;
+            }
+        }
+    }
+
+}
+
+int main(){
+    int node,edge,x,y;
+    cin>>node>>edge;
+    for(int i=0;i<edge;i++){
+        cin>>x>>y;
+        graph[x][y]=1;
+        graph[y][x]=1;
+    }
+
+    int start;
+    cin>>start;
+    dfs(start,node);
+
+    return 0;
+}

@@ -25,6 +25,8 @@ void dfs(int node,int num_node){
 
 int main(){
     int node,edge,x,y;
+
+    //LOGIC FOR TAKING INPUT
     cin>>node>>edge;
     for(int i=0;i<edge;i++){
         cin>>x>>y;
@@ -37,4 +39,5 @@ int main(){
     dfs(start,node);
 
     return 0;
+
 }

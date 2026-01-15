@@ -7,6 +7,7 @@ int graph[max][max]={0};
 int vis[max]={0};
 queue<int>q;
 
+//logic for bfs
 void bfs(int node,int num_node){
     q.push(node);
     vis[node]=1;
@@ -42,4 +43,5 @@ int main(){
 
 
     return 0;
+
 }

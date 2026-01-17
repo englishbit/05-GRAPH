@@ -6,6 +6,7 @@ int matrix[MAX][MAX]={0};
 
 int main(){
     int node,edge;
+    //logic for taking input
     cin>>node;
     cin>>edge;
 
@@ -26,4 +27,5 @@ int main(){
     }
 
     return 0;
+
 }

@@ -30,11 +30,13 @@ int main(){
     sum=0;
     int start;
     cin>>start;
+    //logic for output
     dfs(start,node);
     cout<<sum;
 
 
     return 0;
 }
+
 
 

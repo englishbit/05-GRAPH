@@ -20,6 +20,7 @@ int main(){
     //logic for taking input
     cin>>node>>edge;
 
+    //logic for building graph
     int x,y;
     for(int i=0;i<edge;i++){
         cin>>x>>y;
@@ -37,6 +38,7 @@ int main(){
 
     return 0;
 }
+
 
 
 

@@ -2,6 +2,7 @@
 #include<iostream>
 using namespace std;
 int main(){
+    //logic for taking input
     int node,edge;
     cin>>node>>edge;
 
@@ -33,3 +34,4 @@ int main(){
     return 0;
 
 }
+

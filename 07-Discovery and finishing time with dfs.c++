@@ -8,7 +8,7 @@ int in_time[max];
 int out_time[max];
 int time=0;
 
-
+//logic for dfs
 void dfs(int node,int num_node){
     vis[node]=1;
     in_time[node]=time++;
@@ -22,6 +22,7 @@ void dfs(int node,int num_node){
 
 }
 int main(){
+    //logic for taking input
     int node,edge;
     cin>>node>>edge;
 

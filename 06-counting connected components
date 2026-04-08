@@ -45,6 +45,7 @@ int main(){
         }
     }
 
+    //logic for output
     cout<<count<<endl;
 
     return 0;

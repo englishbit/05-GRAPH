@@ -27,6 +27,7 @@ void dfs(int node,int num_node){
 
 
 int main(){
+    //logic for taking input
     int node,edge,x,y;
     cin>>node>>edge;
 

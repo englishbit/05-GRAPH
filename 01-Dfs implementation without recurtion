@@ -36,7 +36,8 @@ int main(){
 
     int start;
     cin>>start;
-    //logic for calling dfs
+
+    //LOGIC FOR OUTPUT
     dfs(start,node);
 
     return 0;

@@ -5,7 +5,7 @@ using namespace std;
 #define max 100000
 int graph[max][max];
 int vis[max]={0};
-
+//LOGIC FOR DFS
 void dfs(int node,int num_node){
     vis[node]=1;
     for(int i=0;i<num_node;i++){

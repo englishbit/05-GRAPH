@@ -59,7 +59,7 @@ while(e--){
 
 int source;
 cin>>source;
-    //logic for special case
+    //LOGIC FOR SPECIAL CASE
 if(source<0 || source>=n){
     cout<<"Invalid input"<<endl;
     return 1;

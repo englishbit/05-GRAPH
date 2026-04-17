@@ -67,7 +67,7 @@ if(source<0 || source>=n){
     
 bfs(source);
 
-    //logic for output
+    //LOGIC FOR OUTPUT
 for(int i=0;i<n;i++){
     cout<<dis[i]<<endl;
 }

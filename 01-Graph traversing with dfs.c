@@ -33,7 +33,7 @@ if(node<2){
     return -1;
 }
 
-//logic for taking input
+//LOGIC FOR TAKING INPUT
 int x,y;
 for(int i=0;i<edge;i++){
     scanf("%d %d",&x,&y);

@@ -7,7 +7,7 @@ using namespace std;
 vector<int>v[MAX];
 int vis[MAX]={0};
 int dis[MAX]={-1};
-//logic for bfs function
+//LOGIC FOR BFS
 void bfs(int node){
 
     queue<int>q;

@@ -6,7 +6,7 @@ int matrix[MAX][MAX]={0};
 
 int main(){
     int node,edge;
-    //logic for taking input
+    //LOGIC FOR TAKING INPUT
     cin>>node;
     cin>>edge;
 

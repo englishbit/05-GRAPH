@@ -18,7 +18,7 @@ int main(){
         matrix[x][y]=1;
         matrix[y][x]=1;
     }
-
+    //LOGIC FOR OUTPUT
     for(int i=0;i<node;i++){
         for(int j=0;j<node;j++){
             cout<<matrix[i][j];

@@ -6,6 +6,7 @@ using namespace std;
 int graph[max][max]={0};
 int vis[max]={0};
 stack<int>stk;
+//LOGIC FOR TAKING INPUT
 void dfs(int node,int num_node){
     stk.push(node);
     vis[node]=1;

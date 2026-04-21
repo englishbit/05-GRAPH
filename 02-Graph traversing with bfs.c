@@ -7,7 +7,7 @@ using namespace std;
 #define MAX 10000
 vector<int>v[MAX];
 int vis[MAX];
-//logic for bfs function
+//LOGIC FOR BFS
 void bfs(int node){
     queue<int>q;
     q.push(node);

@@ -41,7 +41,7 @@ int main(){
 
 int node,edge;
 scanf("%d %d",&node,&edge);
-//logic for special case
+//LOGIC FOR SPECIAL CASE
 if(node<2){
     printf("Invalid input\n");
     return -1;

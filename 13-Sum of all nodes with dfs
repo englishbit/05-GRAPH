@@ -5,7 +5,9 @@ using namespace std;
 int graph[max][max]={0};
 int vis[max]={0};
 int sum=0;
-//logic for dfs
+
+//LOGIC FOR DFS
+
 void dfs(int node,int num_node){
     vis[node]=1;
     sum=sum+node;

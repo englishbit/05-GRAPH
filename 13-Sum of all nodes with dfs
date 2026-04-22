@@ -17,9 +17,10 @@ void dfs(int node,int num_node){
         }
     }
 }
+
 int main(){ 
     int node,edge;
-    //logic for taking input
+    //LOGIC FOR TAKING INPUT
     cin>>node>>edge;
 
     //logic for building graph

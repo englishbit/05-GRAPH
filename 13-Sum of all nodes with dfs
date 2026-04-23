@@ -34,7 +34,7 @@ int main(){
     sum=0;
     int start;
     cin>>start;
-    //logic for output
+    //LOGIC FOR OUTPUT
     dfs(start,node);
     cout<<sum;
 

@@ -28,6 +28,7 @@ void bfs(int node,int num_node){
 
 int main(){
     int node,edge,x,y;
+    //LOGIC FOR INPUT
     cin>>node>>edge;
     
     for(int i=0;i<edge;i++){

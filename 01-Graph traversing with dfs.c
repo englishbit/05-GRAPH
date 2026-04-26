@@ -60,6 +60,3 @@ if(start<node && start>=0){
 
     return 0;
 }
-
-
-

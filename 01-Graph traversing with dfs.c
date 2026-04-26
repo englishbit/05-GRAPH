@@ -49,6 +49,7 @@ printf("Enter the starting node\n");
 
 int start;
 scanf("%d",&start);
+//LOGIC FOR OUTPUT
 if(start<node && start>=0){
     dfs(start);
     printf("\n");

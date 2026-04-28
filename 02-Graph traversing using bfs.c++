@@ -38,6 +38,7 @@ int main(){
 
     }
 
+    //LOGIC FOR OUTPUT
     int start;
     cin>>start;
     bfs(start,node);

@@ -31,7 +31,7 @@ void bfs(int node){
 
 int main(){
 int n,e,x,y;
-//logic for taking input
+//LOGIC FOR TAKING INPUT
 cin>>n>>e;
 
     //logic for special case

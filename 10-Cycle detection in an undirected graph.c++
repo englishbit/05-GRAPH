@@ -25,7 +25,7 @@ void dfs(int node,int par){
 }
 
 int main(){
-    //logic for taking input
+    //LOGIC FOR TAKING INTPUT
     int n,e,x,y;
     cin>>n>>e;
 

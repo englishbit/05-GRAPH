@@ -34,7 +34,7 @@ int main(){
         cout<<"Invalid input"<<endl;
         return 1;
     }
-        //logic for special case
+        
     if(e<0){
         cout<<"Invalid input"<<endl;
         return 1;

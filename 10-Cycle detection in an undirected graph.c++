@@ -29,7 +29,7 @@ int main(){
     int n,e,x,y;
     cin>>n>>e;
 
-        //logic for special case
+        //LOGIC FOR SPECIAL CASE
     if(n<0 || n>=max){
         cout<<"Invalid input"<<endl;
         return 1;
